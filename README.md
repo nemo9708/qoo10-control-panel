@@ -1,0 +1,1 @@
+# qoo10-control-panel
