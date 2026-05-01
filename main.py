@@ -152,7 +152,7 @@ class MainWindow(QMainWindow):
 
         def on_run_action_clicked(self):
         # GitHub workflow 파일명 (너의 레포에 있는 YAML 파일 이름)
-        workflow_file = "qoo10.yml"   # 반드시 실제 이름으로 수정해야 함!
+            workflow_file = "qoo10.yml"   # 반드시 실제 이름으로 수정해야 함!
 
         try:
             self.github_client.run_workflow(workflow_file)
